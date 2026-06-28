@@ -11,7 +11,7 @@ export default function Layout() {
     </div>
   )
 
-  if (!user) return <Navigate to="/login" replace />
+    // if (!user) return <Navigate to="/login" replace />
 
   return (
     <div className="flex min-h-screen" dir="rtl">
